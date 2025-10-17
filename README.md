@@ -2,6 +2,14 @@
 
 This project prototype provides a Python-based tool to read, interpret, and export Morningstar MC6 MIDI controller presets stored in JSON format. It converts raw MIDI data into a human-readable table, including pedal assignments, program changes, control change parameters, and their values in percentages, making it easier to understand, document, and share preset configurations.
 
+While a larger-scale, more accessible version of this program is currently in development, this repository demonstrates the parsing of the Verse preset for the song `Sling` by my band `Fleeting Colours`. 
+
+The `pedal_defs.py` is limited to my personal pedalboard setup consisting of the following pedals:
+Strymon: BigSky, Volante, Deco V2, Flint v2
+Hologram Microcosm
+Chase Bliss Preamp MKII
+
+
 ---
 
 ## Features
@@ -19,4 +27,5 @@ This project prototype provides a Python-based tool to read, interpret, and expo
 
 ## System Requirements 
 
-- Pandas, json
+- `Pandas`
+- `json`
