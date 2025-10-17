@@ -5,9 +5,9 @@ This project prototype provides a tool built in Python to read, interpret, and e
 While a larger-scale, more accessible version of this program is currently in development, this repository demonstrates the parsing of the Verse preset for the song `Sling` by my band `Fleeting Colours`. 
 
 The `pedal_defs.py` is limited to my personal pedalboard setup consisting of the following pedals:
-Strymon: BigSky, Volante, Deco V2, Flint v2
-Hologram Microcosm
-Chase Bliss Preamp MKII
+- Strymon: BigSky, Volante, Deco V2, Flint v2
+- Hologram Microcosm
+- Chase Bliss Preamp MKII
 
 
 ---
