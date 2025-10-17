@@ -1,6 +1,6 @@
 # Morningstar MC6 MIDI Preset Parser
 
-This project prototype provides a Python-based tool to read, interpret, and export Morningstar MC6 MIDI controller presets stored in JSON format. It converts raw MIDI data into a human-readable table, including pedal assignments, program changes, control change parameters, and their values in percentages, making it easier to understand, document, and share preset configurations.
+This project prototype provides a tool built in Python to read, interpret, and export Morningstar MC6 MIDI controller presets stored in JSON format. It converts raw MIDI data into a readable table, including pedal assignments, program changes, control change parameters, and their values converted to percentages, making it easier to understand, document, and share preset configurations.
 
 While a larger-scale, more accessible version of this program is currently in development, this repository demonstrates the parsing of the Verse preset for the song `Sling` by my band `Fleeting Colours`. 
 
