@@ -1,0 +1,10 @@
+msgIndex,Type,Channel,Pedal,Parameter,Value
+,,,,,
+0,Clock,1,,,81
+1,Program Change,2,Preamp,Preset,12
+2,Control Change,1,Big Sky,Mix,46.5%
+3,Control Change,1,Big Sky,Decay,52.0%
+4,Control Change,3,Volante,Echo Level,0.0%
+5,Control Change,3,Volante,Repeats,54.3%
+6,Program Change,4,Microcosm,Preset,45
+7,Program Change,7,Deco,Preset,0
