@@ -16,7 +16,7 @@ PEDALS = {
     },
     "Preamp": {
         "channel": 2,
-        "cc_map": {}  # add mappings if you have them
+        "cc_map": {}  # add mappings
     },
     "Volante": {
         "channel": 3,
