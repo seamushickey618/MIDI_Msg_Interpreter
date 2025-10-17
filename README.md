@@ -1,6 +1,6 @@
 # Morningstar MC6 MIDI Preset Parser
 
-This project provides a Python-based tool to read, interpret, and export Morningstar MC6 MIDI controller presets stored in JSON format. It converts raw MIDI data into a human-readable table, including pedal assignments, program changes, control change parameters, and their values in percentages, making it easier to understand, document, and share preset configurations.
+This project prototype provides a Python-based tool to read, interpret, and export Morningstar MC6 MIDI controller presets stored in JSON format. It converts raw MIDI data into a human-readable table, including pedal assignments, program changes, control change parameters, and their values in percentages, making it easier to understand, document, and share preset configurations.
 
 ---
 
@@ -19,4 +19,4 @@ This project provides a Python-based tool to read, interpret, and export Morning
 
 ## System Requirements 
 
-- **JSON Parsing:** Safely loads MC6 preset `.json` files, even with spaces or parentheses in filenames.
+- Pandas, json
