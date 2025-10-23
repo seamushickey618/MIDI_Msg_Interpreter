@@ -189,33 +189,59 @@ PEDALS = {
     }
 },
 
-"Deco": {
-    "channel": 7,
-    "cc_map": {
-        0: "Bank Select",
-        10: "Tape Saturation On/Off",
-        11: "Voice",
-        12: "Saturation",
-        13: "Volume",
-        14: "Tone",
-        15: "Low Trim",
-        16: "Doubletracker On/Off",
-        17: "Type",
-        18: "Lag Time",
-        19: "Wobble",
-        20: "Blend",
-        21: "Doubletracker Boost/Cut",
-        22: "Auto-Flange Time",
-        23: "Wide Stereo On/Off",
-        25: "MIDI Clock Tempo Mult/Div",
-        33: "Bypass",
-        60: "MIDI Expression On/Off",
-        63: "MIDI Clock On/Off",
-        93: "Remote Tap",
-        97: "Auto-Flange",
-        100: "Expression Pedal"
+    "Deco": {
+        "channel": 7,
+        "cc_map": {
+            0: {"name": "Bank Select", "range": "0-2"},
+            10: {"name": "Tape Saturation On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            11: {"name": "Voice", "range": "1-2 (1=classic, 2=cassette)"},
+            12: {"name": "Saturation", "range": "0-127"},
+            13: {"name": "Volume", "range": "0-127"},
+            14: {"name": "Tone", "range": "0-127"},
+            15: {"name": "Low Trim", "range": "0-127"},
+            16: {"name": "Doubletracker On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            17: {"name": "Type", "range": "1-3 (1=sum, 2=invert, 3=bounce)"},
+            18: {"name": "Lag Time", "range": "0-127"},
+            19: {"name": "Wobble", "range": "0-127"},
+            20: {"name": "Blend", "range": "0-127"},
+            21: {"name": "Doubletracker Boost/Cut", "range": "0-127"},
+            22: {"name": "Auto-Flange Time", "range": "0-127"},
+            23: {"name": "Wide Stereo On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            25: {"name": "MIDI Clock Tempo Mult/Div", "range": "0-6 (0=x2/3, 1=x1, 2=x2, 3=x3, 4=x4, 5=x6, 6=x8)"},
+            33: {"name": "Bypass", "range": "0, 127 (0=bypass, 1-127=on)"},
+            60: {"name": "MIDI Expression On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            63: {"name": "MIDI Clock On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            93: {"name": "Remote Tap", "range": "Any"},
+            97: {"name": "Auto-Flange", "range": "0, 127 (0=off, 1-127=on)"},
+            100: {"name": "Expression Pedal", "range": "0-127 (0=heel, 127=toe)"}
+        }
+    },
+
+    "Flint": {
+        "channel": 5,
+        "cc_map": {
+            0: {"name": "Bank Select", "range": "0-2 (0=Bank 1, 1=Bank 2, 2=Bank 3)"},
+            10: {"name": "Tremolo On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            11: {"name": "Tremolo Type", "range": "1-3 (1='61, 2='63 Tube, 3='65 Photo)"},
+            12: {"name": "Intensity", "range": "0-127"},
+            13: {"name": "Speed", "range": "0-127"},
+            14: {"name": "Tap Subdivision", "range": "0-127"},
+            15: {"name": "Tremolo Boost/Cut", "range": "0-127"},
+            16: {"name": "Reverb On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            17: {"name": "Reverb Type", "range": "1-3 (1='60s, 2='70s, 3='80s)"},
+            18: {"name": "Mix", "range": "0-127"},
+            19: {"name": "Color", "range": "0-127"},
+            20: {"name": "Decay", "range": "0-127"},
+            21: {"name": "Reverb Pre-Delay", "range": "0-127"},
+            22: {"name": "Reverb Boost/Cut", "range": "0-127"},
+            23: {"name": "Effect Order", "range": "0, 127 (0=Reverb→Tremolo, 1-127=Tremolo→Reverb)"},
+            27: {"name": "Footswitch A", "range": "0, 127 (0=release, 1-127=press)"},
+            28: {"name": "Footswitch B", "range": "0, 127 (0=release, 1-127=press)"},
+            33: {"name": "Bypass", "range": "0, 127 (0=bypass, 1-127=on)"},
+            60: {"name": "MIDI Expression On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            63: {"name": "MIDI Clock On/Off", "range": "0, 127 (0=off, 1-127=on)"},
+            93: {"name": "Remote Tap", "range": "Any"},
+            100: {"name": "Expression Pedal", "range": "0-127 (0=heel, 127=toe)"}
+        }
     }
-},
-
-
 }
