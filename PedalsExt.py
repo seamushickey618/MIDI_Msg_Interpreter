@@ -161,34 +161,6 @@ PEDALS = {
     }
 },
 
-"Flint": {
-    "channel": 5,
-    "cc_map": {
-        0: "Bank Select",
-        10: "Tremolo On/Off",
-        11: "Tremolo Type",
-        12: "Intensity",
-        13: "Speed",
-        14: "Tap Subdivision",
-        15: "Tremolo Boost/Cut",
-        16: "Reverb On/Off",
-        17: "Reverb Type",
-        18: "Mix",
-        19: "Color",
-        20: "Decay",
-        21: "Reverb Pre-Delay",
-        22: "Reverb Boost/Cut",
-        23: "Effect Order",
-        27: "Footswitch A",
-        28: "Footswitch B",
-        33: "Bypass",
-        60: "MIDI Expression On/Off",
-        63: "MIDI Clock On/Off",
-        93: "Remote Tap",
-        100: "Expression Pedal"
-    }
-},
-
     "Deco": {
         "channel": 7,
         "cc_map": {
